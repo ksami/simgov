@@ -1,0 +1,19 @@
+class Entity {
+  Double wealth
+  Int satisfaction
+  Goal goal
+}
+class Individual {
+  Int motivation
+}
+class Citizen
+class Immigrant
+class State
+
+Entity *-- Citizen
+Individual *-- Citizen
+Entity *-- Immigrant
+Individual *-- Immigrant
+Entity *-- State
+Citizen o-- State
+Immigrant o-- State
