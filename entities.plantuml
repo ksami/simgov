@@ -1,19 +1,19 @@
 class Entity {
-  Double wealth
-  Int satisfaction
-  Goal[] goals
+  Number wealth
+  Number pSatisfaction
+  Object goals
 }
 class Individual {
-  bool isEmployed
-  Int motivation
-  Int hunger
-  Skill[] skills
+  Bool isEmployed
+  Number pMotivation
+  Number pHunger
+  Skill skill
 }
 class Citizen
 class Immigrant
 class State {
-  Long population
-  Long foodStores
+  Number population
+  Number foodStores
 }
 
 Entity *-- Citizen
