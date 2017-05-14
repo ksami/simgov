@@ -1,4 +1,4 @@
-class Entity {
+export default class Entity {
     wealth: number;
     pSatisfaction: number;
     goals: {
@@ -15,5 +15,3 @@ class Entity {
         };
     }
 }
-
-module.exports = Entity;

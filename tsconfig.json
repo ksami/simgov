@@ -5,6 +5,7 @@
   "exclude": [
     "test"
   ],
+  "compileOnSave": false,
   "compilerOptions": {
     "target": "ES2017",
     "module": "commonjs",

@@ -1,4 +1,4 @@
-class Skill {
+export default class Skill {
     pProficiency: number;
     pProficiencyRate: number;
     pValueRate: number;
@@ -14,6 +14,3 @@ class Skill {
         return value + (value * this.pValueRate);
     }
 }
-
-
-module.exports = Skill;
