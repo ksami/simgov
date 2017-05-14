@@ -6,7 +6,6 @@ class Entity {
 class Individual {
   Bool isEmployed
   Number pMotivation
-  Number pHunger
   Skill skill
 }
 class Citizen
