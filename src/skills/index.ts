@@ -1,5 +1,3 @@
-// @flow
-
 const Skill = require("./Skill");
 
 module.exports = {

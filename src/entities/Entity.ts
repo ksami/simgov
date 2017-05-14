@@ -1,5 +1,3 @@
-// @flow
-
 class Entity {
     wealth: number;
     pSatisfaction: number;

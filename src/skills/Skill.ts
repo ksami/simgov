@@ -1,5 +1,3 @@
-// @flow
-
 class Skill {
     pProficiency: number;
     pProficiencyRate: number;

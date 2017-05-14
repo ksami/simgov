@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "flow-remove-types src/ -d build/",
+    "build": "tsc",
     "start": "npm run build && node index.js"
   },
   "repository": {
@@ -20,11 +20,8 @@
   },
   "homepage": "https://github.com/ksami/simgov#readme",
   "devDependencies": {
+    "@types/node": "^7.0.18",
     "babel-eslint": "^7.2.3",
-    "eslint": "^3.19.0",
-    "eslint-plugin-flowtype": "^2.32.1",
-    "eslint-plugin-flowtype-errors": "^3.2.1",
-    "flow-bin": "^0.46.0",
-    "flow-remove-types": "^1.2.1"
+    "eslint": "^3.19.0"
   }
 }
